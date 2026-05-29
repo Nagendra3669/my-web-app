@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
     res.send(`
-        <h1>Welcome to MyWebApp</h1>
+        <h1>OP Kushak</h1>
         <p>Deployed using Azure DevOps CI/CD</p>
     `);
 });
