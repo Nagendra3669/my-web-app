@@ -25,3 +25,8 @@ steps:
     repository: 'nagendra3669/my-web-app'
     command: 'push'
     tags: '$(Build.BuildId)'
+- task: AzureAppServiceSettings@1
+  inputs:
+    azureSubscription: 'Azure for Students(2)(942be285-0500-4001-91db-ee3c890e87aa)'
+    appName: 'my-web-app'
+    resourceGroupName: 'RG-AzureProject'
